@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@300;400;500;600;800&family=Rubik:wght@400;500;700;900&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height:25px;
+    font-weight:400;
+}
+.theme-bg{
+    background: #505cfd;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+.float-fix{display: flow-root;}
+.btn {
+	border: 1px solid blue;
+	padding: 15px 40px;
+	border-radius: 30px;
+	font-weight: 600;
+	color: #595959;
+    font-family: Poppins;
+    font-size:14px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* header area */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header-area {
+	padding: 30px 54px
+}
+nav ul {
+	margin: 0 90px;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 55px;
+}
+.main-menu ul li a {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    line-height: 1;
+    padding:44px 0;
+}
+.hire-btn.float-end > a {
+	padding: 13px 60px;
+	border: 1px solid #505cfd;
+	border-radius: 30px;
+	margin: 0px 8px;
+}
+
+            /*slider area  */
+.carousel-item img {
+	height: 100vh;
+}
+.content-center {
+	bottom: 10.25rem;
+    }	
+.slider-icon a {
+	color: #505cfd;
+	font-size: 18px;
+	margin: 0 15px;
+}
+.slider-inner h2 {
+	font-size: 72px;
+	font-weight: 600;
+	color: #595959;
+    margin-bottom: 15px;
+}
+.slider-inner p{
+    color: #343434;
+    font-size:15px;
+    margin-bottom: 50px;
+}
+
+/* features-area */
+.features-area {
+	margin-top: -81px;
+	z-index: 2;
+	position: relative;
+}
+.single-features{
+    padding:50px 0;
+}
+.single-features i {
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.single-features h3{
+    color: #fff;
+    font-size:22px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.single-features p{
+    color: #fff;
+    font-size:15px;
+    line-height: 25px;
+    margin: 0;
+}
