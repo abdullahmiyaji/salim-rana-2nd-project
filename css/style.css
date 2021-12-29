@@ -304,3 +304,148 @@ margin-bottom: 20px;
 .team-info h3{
     margin-bottom:10px
 }
+/* blog-area */
+.blog-content{ 
+    margin-top: 15px;
+}
+.blog-content h3 a{
+    font-size: 22px;
+    color: #444;
+    text-decoration: none;
+}
+.blog-content p{
+    margin-bottom:30px;
+}
+.blog-meta{
+    margin-bottom: 14px;
+}
+.meta-line{
+    background: #444;
+    height:2px;
+    width:30px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+}
+            /* corosol style */
+            /* .carousel-indicators [data-bs-target] {
+                box-sizing: content-box;
+                flex: 0 1 auto;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                padding: 0;
+                margin-right: 3px;
+                margin-left: 9px;
+                text-indent: -999px;
+                cursor: pointer;
+                background-color:rgb(95, 110, 105);
+                background-clip: padding-box;
+                border: 0;
+                border-top: 0px solid transparent;
+                border-bottom: 0px solid transparent;
+                opacity: .5;
+                transition: opacity .6s ease;
+            } */
+
+.carousel-indicators [data-bs-target] {
+    height: 20px;
+    border-radius: 50%;
+    padding: 0;
+    background-color:rgb(95, 110, 105);
+}
+.carousel-indicators{
+    margin-bottom:3rem;
+}
+.testi-img img{
+    max-height:400px;
+}
+.corosel-content{
+    min-height: 312px;
+    background: rgba(255,225,255,.9);
+    color: #444;
+    display: block;
+}
+/* footer-area */
+.black-bg{
+    background:#000;
+}
+.footer-top-area{}
+
+.contact-list{
+    margin-bottom: 20px;
+}
+.contact-list ul{}
+.contact-list ul li{
+    line-height: 36px;
+    color: #777;
+}
+.footer-widget h3{
+    color:#fff;
+    font-size:22px;
+    font-weight: 700;
+    line-height:1;
+    margin-bottom: 30px;
+}
+.footer-icon a{
+    color: #fff;
+    margin-right: 10px;
+}
+.footer-link li{ 
+    width:50%;
+    float:left;
+}
+.footer-link li a{
+    color:#777;
+    line-height:36px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.news-title h4{
+    color:#777;
+    font-size:17px;
+    line-height:1;
+    margin: 0;
+}
+.news-title h4 a{
+    color: #777;
+    font-size:17px;
+    line-height:30px;
+}
+.news-title span{
+    color:#777;
+}
+.news-title{
+    padding-left:99px;
+}
+.news-thumb{
+    float:left
+}
+.copyright-text p{
+    color: #777;
+    margin: 0;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer-menu ul li a{
+   color: #777;
+}
+.copyright-border{
+        border-top: 1px solid #777;
+        padding: 30px 0;
+}
+nav ul {
+    margin: 0 0 0 369px;
+}
+
+/*  grayscale css and gradient Class 20 part 1 */
+.team-img{
+    filter:grayscale(100%);
+    transition:all 0.5s;
+}
+.team-wrapper:hover .team-img{
+    filter:grayscale(0);
+}
